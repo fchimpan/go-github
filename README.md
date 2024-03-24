@@ -183,8 +183,7 @@ if _, ok := err.(*github.AbuseRateLimitError); ok {
 You can use [go-github-ratelimit](https://github.com/gofri/go-github-ratelimit) to handle
 secondary rate limit sleep-and-retry for you.
 
-Learn more about GitHub secondary rate limiting at
-https://docs.github.com/en/rest/overview/resources-in-the-rest-api#secondary-rate-limits .
+Learn more about GitHub secondary rate limiting at https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api#about-secondary-rate-limits .
 
 ### Accepted Status ###
 
